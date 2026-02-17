@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean, Numeric, Text
 from sqlalchemy.sql import func
 from sqlalchemy import ForeignKey
 from sqlalchemy.dialects.postgresql import JSONB
-from ..config.database import Base
+from database.base import Base
 
 
 class Payment(Base):
