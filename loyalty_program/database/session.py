@@ -20,7 +20,7 @@ AsyncSessionLocal = sessionmaker(
 # Синхронный движок для Alembic
 from sqlalchemy import create_engine
 sync_engine = create_engine(
-    settings.database_url.replace("+asyncpg", ""),
+    settings.database_url.replace("postgresql+asyncpg", "postgresql"),
     pool_pre_ping=True,
 )
 
