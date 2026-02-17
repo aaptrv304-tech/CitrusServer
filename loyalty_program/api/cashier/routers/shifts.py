@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
-from ....schemas.shift import ShiftCreate, ShiftUpdate, ShiftOut
-from ....repositories.shift import ShiftRepository
-from ....repositories.shift_token import ShiftTokenRepository
-from ....database.session import get_db
+from schemas.shift import ShiftCreate, ShiftUpdate, ShiftOut
+from repositories.shift import ShiftRepository
+from repositories.shift_token import ShiftTokenRepository
+from database.session import get_db
 from sqlalchemy.orm import Session
 import secrets
 

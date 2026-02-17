@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, Numeric
 from sqlalchemy.sql import func
-from ..config.database import Base
+from database.base import Base
 
 
 class SubscriptionPlan(Base):

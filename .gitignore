@@ -1,23 +1,50 @@
 ```
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
+.Python
+env/
 venv/
+.venv/
+.ENV
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Database
+*.sqlite
+*.db
+
+# Environment
 .env
 .env.local
-.env.*
+*.env*
+
+# IDE
 .vscode/
 .idea/
-*.log
+*.swp
+*.swo
 *.tmp
-dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
 build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-htmlcov/
-.coverage
+dist/
+*.egg-info/
 ```
