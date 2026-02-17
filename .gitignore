@@ -8,7 +8,7 @@ __pycache__/
 env/
 venv/
 .venv/
-.ENV
+loyalty_program/.env
 .venv.bak/
 pip-log.txt
 pip-delete-this-directory.txt
@@ -28,7 +28,7 @@ coverage.xml
 *.db
 
 # Environment
-.env
+loyalty_program/.env
 .env.local
 *.env*
 
